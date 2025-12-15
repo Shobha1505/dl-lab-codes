@@ -1,3 +1,4 @@
+#Program 1- AlexNet#
 # -*- coding: utf-8 -*-
 """DL  modified codes
 
@@ -50,6 +51,9 @@ num_classes = 10   # using fewer classes for a smaller dataset
 model = AlexNet(input_shape, num_classes)
 model.summary()
 
+
+
+#program2-Q-learning on graph#
 import numpy as np
 import pylab as pl
 import networkx as nx
@@ -224,6 +228,10 @@ pl.xlabel("Iterations")
 pl.ylabel("Max Q-value")
 pl.show()
 
+
+
+
+#program3-RNN text generation#
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
@@ -301,6 +309,9 @@ for _ in range(text_len):
 print("\nGenerated Text:")
 print(generated_text)
 
+
+
+#program4- Tic-Tac-Toe#
 import numpy as np
 import pickle
 
@@ -506,6 +517,10 @@ if __name__ == "__main__":
         if input("Play again? (y/n): ") != 'y':
             break
 
+
+
+
+#program5- LSTM#
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
